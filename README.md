@@ -6,3 +6,4 @@ PHP 5.4 Docker image for Gitlab CI code runner
 * PHP 5.4.44
 * PHP MySQL module
 * Composer
+* Git
