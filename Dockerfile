@@ -1,13 +1,13 @@
 FROM ubuntu:12.04
 
 RUN apt-get update && apt-get install -y \
-    git \
     python-software-properties
 
 RUN apt-add-repository -y ppa:ondrej/php5-oldstable
 
 RUN apt-get update && apt-get install -y \
     curl \
+    git \
     libapache2-mod-php5 \
     mysql-client \
     php5 \
